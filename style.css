@@ -141,6 +141,16 @@ body {
   margin: 0 24pt;
 }
 
+.cart ol {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 592px;
+}
+
+.cart ol::webkit-scrollbar-thumb{
+  visibility: hidden;
+}
+
 .cart .cart__title {
   background-color: #0a764f;
   font-size: 22pt;
